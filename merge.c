@@ -32,16 +32,16 @@ void combine(long int a[],long int l,long int m,long int r)
 	long int i,j=0;
 	for(i=0;i<=m;i++)
 	{
-		L[i]=a[i];
+		L[i]=a[l+i];
 	}
 	long int t=m+1;
 	while(t<=r)
 	{
 		R[j++]=a[t++];
 	}
-	long int endR=j,k=0;
+	long int endR=j,k=l;
 	i=0;j=0;
-	while((i<=m)&&(j<endR))
+	while((i<=m-l)&&(j<endR))
 	{
 		if(L[i]>R[j])
 		{
@@ -50,7 +50,7 @@ void combine(long int a[],long int l,long int m,long int r)
 		else
 			a[k++]=L[i++];
 	}
-	while(i<=m)
+	while(i<=m-l)
 	{
 		a[k++]=L[i++];
 	}
