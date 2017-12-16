@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+	int a,b,c;
 	long long int X,Y,M,T,i,product;
 	long long int array[1000002];
 	if(scanf("%lld",&T)){};
