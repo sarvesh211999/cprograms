@@ -3,6 +3,7 @@ also called hashing or rabin-karp algorithm
 */
 #include<stdio.h>
 #include<string.h>
+int zxcvbn,dfgh,dfj;
 long long int power(int a,int b)
 {
 	long long int p=1;
