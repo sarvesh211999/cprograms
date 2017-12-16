@@ -1,5 +1,6 @@
 #include<stdio.h>
 long int a[100002];
+int aqwrljqnwfnwf,adfjbaf,jafbkaf;
 void combine(long int a[],long int l,long int m,long int r);
 void merge(long int a[],long int l,long int r);
 void read(long int a[],long int n)
